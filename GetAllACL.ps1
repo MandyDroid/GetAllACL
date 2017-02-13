@@ -1,6 +1,6 @@
 #Set variables
 $path = ""
-#pathDefault = "\\some.remote.net\SHARE$\"
+$pathDefault = "\\some.remote.net\SHARE$\"
 $depth = ""
 $depthDefault = 0
 $path = Read-Host "Enter the path you wish to check [default= $pathDefault]"
