@@ -16,7 +16,7 @@ $date = Get-Date
 $spacelist = " "
 
 #Place Headers on out-put file
-$list = "Permissions report for: $path ($depth sub-=folders deep)" | format-table | Out-File "$output_path$filename"
+$list = "Permissions report for: $path ($depth sub-folders deep)" | format-table | Out-File "$output_path$filename"
 $datelist = "Report Run Time: $date`n`n"| format-table | Out-File -append "$output_path$filename"
 $heading = " `n" | format-table | Out-File -append "$output_path$filename"
 
